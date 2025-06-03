@@ -1,0 +1,13 @@
+{
+  "usuario": "emanuel.dev",
+  "contraseña": "1234segura",
+  "nombre": "Emanuel Astudillo",
+  "email": "emanuel@example.com",
+  "rol": "freelancer",
+  "foto": "https://i.pravatar.cc/150?img=12",
+  "preferencias": {
+    "modoOscuro": true,
+    "idioma": "es",
+    "notificaciones": true
+  }
+}
