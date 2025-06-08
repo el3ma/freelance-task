@@ -1,16 +1,18 @@
 <template>
+  <div class="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg">
   <form @submit.prevent="handleSubmit" class="space-y-4">
-    <input v-model="nombre" type="text" placeholder="Nombre del proyecto" class="input" />
-    <input v-model="fecha" type="date" class="input" />
-    <input v-model="presupuesto" type="number" placeholder="Presupuesto" class="input" />
-    <select v-model="prioridad" class="input">
+    <input v-model="nombre" type="text" placeholder="Nombre del proyecto" class="w-full border p-2 rounded-md" />
+    <input v-model="fecha" type="date" class="w-full border p-2 rounded-md" />
+    <input v-model="presupuesto" type="number" placeholder="Presupuesto" class="w-full border p-2 rounded-md" />
+    <select v-model="prioridad" class="w-full border p-2 rounded-md">
       <option disabled value="">Prioridad</option>
       <option value="alta">Alta</option>
       <option value="media">Media</option>
       <option value="baja">Baja</option>
     </select>
-    <button type="submit" class="btn">Agregar Proyecto</button>
+    <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-950">Agregar Proyecto</button>
   </form>
+  </div>
 </template>
 
 <script setup>

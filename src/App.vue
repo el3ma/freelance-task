@@ -12,8 +12,8 @@ onMounted(() => {
 
 <template>
   <div class="h-screen w-screen">
-    <NavbarComp class="w-dvw h-16 bg-white shadow-md" />
-    <RouterView class="w-dvw h-dvh bg-white" />
+    <NavbarComp class="" />
+    <RouterView class="" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="p-6 space-y-10">
-    <h1 class="text-2xl font-bold">Reportes</h1>
+    <h1 class="text-3xl font-bold">Reportes</h1>
     <ReporteProyectos />
     <ReporteTareas />
     <ReporteFinanzas />
